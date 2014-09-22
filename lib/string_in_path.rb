@@ -1,4 +1,4 @@
-require "string_in_path/version"
+require 'spec_helper'
 
 module StringInPath
   # Your code goes here...
