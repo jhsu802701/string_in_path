@@ -20,7 +20,7 @@ module StringInPath
       file_type = `file -b #{filename}`
       if file_type.include?("directory") == false && filename.include?(".DS_Store") == false
         StringInFile.replace(str1, str2, filename)
-        system("rm #{filename}-e")
+        system("rm -f #{filename}-e")
       end
     end
   end

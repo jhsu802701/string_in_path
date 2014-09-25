@@ -12,6 +12,7 @@
 *.o
 *.a
 mkmf.log
+*.gem
 
 .DS_Store
 /spec/lib/temp
