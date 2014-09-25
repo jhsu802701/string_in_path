@@ -20,11 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Recursively check to see if the string "Doppler" is present in /home/wbuffett/test:
+StringInFile.present("Doppler", "/home/wbuffett/test")
+
+### Recursively replace every instance of "Doppler" with "Next Generation" 
+in all files in /home/wbuffett/test:
+StringInFile.replace("Doppler", "Next Generation", "/home/wbuffett/test")
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/string_in_path/fork )
+1. Fork it ( https://github.com/jhsu802701/string_in_path/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
