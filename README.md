@@ -20,7 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-### Recursively check to see if the string "Doppler" is present in /home/wbuffett/test:
+### Recursively check to see if the string "Doppler" is present in any files
+in /home/wbuffett/test:
 StringInFile.present("Doppler", "/home/wbuffett/test")
 
 ### Recursively replace every instance of "Doppler" with "Next Generation" 
