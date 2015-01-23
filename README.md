@@ -21,12 +21,12 @@ Or install it yourself as:
 
 ## Examples
 
-### StringInFile.present("Doppler", "/home/wbuffett/test")
+### StringInPath.present("Doppler", "/home/wbuffett/test")
 Recursively check to see if the string "Doppler" is present in any files
 in /home/wbuffett/test:
 
 
-### StringInFile.replace("Doppler", "Next Generation", "/home/wbuffett/test")
+### StringInPath.replace("Doppler", "Next Generation", "/home/wbuffett/test")
 Recursively replace every instance of "Doppler" with "Next Generation" 
 in all files in /home/wbuffett/test:
 
